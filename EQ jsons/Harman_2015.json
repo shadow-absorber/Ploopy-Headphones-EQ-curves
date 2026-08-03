@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -9.4,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 1.2,
+            "f0": 20,
+            "db_gain": 5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 39,
+            "db_gain": -5.2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.7,
+            "f0": 44,
+            "db_gain": -12,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.7,
+            "f0": 170,
+            "db_gain": 1.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 440,
+            "db_gain": 8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.6,
+            "f0": 1700,
+            "db_gain": 4.8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 2400,
+            "db_gain": 7.7,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 3400,
+            "db_gain": -9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.8,
+            "f0": 4900,
+            "db_gain": 5.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 6400,
+            "db_gain": -7.1,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Harman 2015",
+    "version": "0.0.8"
+}

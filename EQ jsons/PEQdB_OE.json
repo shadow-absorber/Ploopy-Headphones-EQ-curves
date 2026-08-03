@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -2.2,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 1.2,
+            "f0": 20,
+            "db_gain": 4.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 38,
+            "db_gain": -10.8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.5,
+            "f0": 39,
+            "db_gain": -10.6,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.2,
+            "f0": 280,
+            "db_gain": -2.8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 430,
+            "db_gain": 5.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.9,
+            "f0": 730,
+            "db_gain": -5.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 1600,
+            "db_gain": -5.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 2200,
+            "db_gain": 8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -8.7,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.8,
+            "f0": 5300,
+            "db_gain": -7.2,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "PEQdB OE",
+    "version": "0.0.8"
+}

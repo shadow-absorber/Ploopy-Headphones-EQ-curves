@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -6.6,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "LowShelf",
+            "q": 0.7,
+            "f0": 105,
+            "db_gain": 2.4,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.17,
+            "f0": 39,
+            "db_gain": -20,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.03,
+            "f0": 432,
+            "db_gain": 6.8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3.95,
+            "f0": 6047,
+            "db_gain": -11.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 5.23,
+            "f0": 3445,
+            "db_gain": -9.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "HighShelf",
+            "q": 0.7,
+            "f0": 10000,
+            "db_gain": -4.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3.52,
+            "f0": 2131,
+            "db_gain": 5.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 5.86,
+            "f0": 693,
+            "db_gain": -3.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 6,
+            "f0": 592,
+            "db_gain": 2.7,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 6,
+            "f0": 2972,
+            "db_gain": -2.4,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "autoeq",
+    "version": "0.0.8"
+}

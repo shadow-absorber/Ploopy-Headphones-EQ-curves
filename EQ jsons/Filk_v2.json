@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -10.3,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 1.8,
+            "f0": 21,
+            "db_gain": 9.2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.1,
+            "f0": 38,
+            "db_gain": -5.9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1,
+            "f0": 42,
+            "db_gain": -11.9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.3,
+            "f0": 52,
+            "db_gain": 1.4,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.6,
+            "f0": 430,
+            "db_gain": 7.6,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.5,
+            "f0": 1000,
+            "db_gain": -2.9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.1,
+            "f0": 1200,
+            "db_gain": 4.6,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3.3,
+            "f0": 2200,
+            "db_gain": 8.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.9,
+            "f0": 3500,
+            "db_gain": -12,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.8,
+            "f0": 6200,
+            "db_gain": -14,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Filk v2",
+    "version": "0.0.8"
+}

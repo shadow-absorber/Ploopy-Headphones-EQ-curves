@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -9,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 1.2,
+            "f0": 20,
+            "db_gain": 5.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 36,
+            "db_gain": -5.4,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1,
+            "f0": 45,
+            "db_gain": -12,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.8,
+            "f0": 190,
+            "db_gain": 1.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.8,
+            "f0": 430,
+            "db_gain": 9.2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 730,
+            "db_gain": -1.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.9,
+            "f0": 2300,
+            "db_gain": 10.7,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -8.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.8,
+            "f0": 6300,
+            "db_gain": 6.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 6500,
+            "db_gain": -12,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Sonnarworks",
+    "version": "0.0.8"
+}

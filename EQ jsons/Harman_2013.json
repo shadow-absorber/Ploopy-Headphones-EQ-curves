@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -8.6,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 2.5,
+            "f0": 20,
+            "db_gain": 3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.8,
+            "f0": 33,
+            "db_gain": -2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.5,
+            "f0": 40,
+            "db_gain": -17.7,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.7,
+            "f0": 420,
+            "db_gain": 8.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 5.8,
+            "f0": 720,
+            "db_gain": -2.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.6,
+            "f0": 1500,
+            "db_gain": -21,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.9,
+            "f0": 2200,
+            "db_gain": 5.8,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.3,
+            "f0": 3100,
+            "db_gain": 3.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3,
+            "f0": 3400,
+            "db_gain": -9.3,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.1,
+            "f0": 6200,
+            "db_gain": -13,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Harman 2013",
+    "version": "0.0.8"
+}

@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -10.1,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 20,
+            "db_gain": 6,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.4,
+            "f0": 35,
+            "db_gain": -2.6,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2,
+            "f0": 40,
+            "db_gain": -13.9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 0.4,
+            "f0": 200,
+            "db_gain": 7.2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 1.5,
+            "f0": 280,
+            "db_gain": -3.2,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 2.4,
+            "f0": 430,
+            "db_gain": 6.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 5,
+            "f0": 700,
+            "db_gain": -2.1,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3,
+            "f0": 2200,
+            "db_gain": 6.9,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 3.1,
+            "f0": 3500,
+            "db_gain": -8.5,
+            "enabled": true
+        },
+        {
+            "filter_type": "Peaking",
+            "q": 4.3,
+            "f0": 6400,
+            "db_gain": -10.3,
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Hadoe",
+    "version": "0.0.8"
+}
