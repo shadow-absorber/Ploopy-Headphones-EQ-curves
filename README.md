@@ -1,7 +1,16 @@
 # Ploopy-Headphones-EQ-curves
 A repository of EQ profiles and Curves for the Ploopy Headphones for use with the Headphones Toolbox
 
-## Howto make your own Parametric EQ profile for Ploopy Headphones on squig.link
+## How To import an EQ profile json
+
+1. Open Ploopy Headphones Toolbox
+
+2. press the 3 dot menu that is below the other one
+
+3. press Import from JSON( see image if you can't find it )
+![Ploopy Headphones Toolbox with the second 3 dot menu opened with the Import from JSON option highlighted](./Pictures/import-json.png)
+
+## How To make your own Parametric EQ profile for Ploopy Headphones on squig.link
 
 1. Set the settings for autoEQ like this
 settings for autoEQ on [squig.link](https://squig.link)
