@@ -41,3 +41,13 @@ settings for autoEQ on [squig.link](https://squig.link)
 
 8. manually input the PEQ filters from the exported text file, don't forget the preamp!!
 
+## CREDITS
+Super* Review for [Squig.link](https://squig.link)
+oratory1990 for default tuning of Ploopy headphones
+jaakkopasanen for autoEQ profile for Ploopy Headphones, and for default none EQ curve
+### curves
+Filk for filk curve
+Hadoe for Hadoe curve
+VSG for VSG curve
+Dung Le for Rtings, Sonnarworks Reference curves, and for Antdroid, Bad Guy, Banbeucmas, Crinacle, Precogvision, Super Review reviewer preference curves
+jaakkopasanen for reference target CSV files
