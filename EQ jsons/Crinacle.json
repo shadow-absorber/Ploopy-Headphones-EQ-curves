@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -7.5,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "q": 0.8,
+            "f0": 20,
+            "db_gain": 3.3,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 37,
+            "db_gain": -9.5,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.7,
+            "f0": 41,
+            "db_gain": -11.1,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 260,
+            "db_gain": -1.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.5,
+            "f0": 380,
+            "db_gain": 7.1,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 760,
+            "db_gain": -2.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 2200,
+            "db_gain": 8.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -11.2,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 6300,
+            "db_gain": -10.4,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.5,
+            "f0": 7000,
+            "db_gain": 4.3,
+            "filter_type": "Peaking",
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Crinacle",
+    "version": "0.0.9"
+}

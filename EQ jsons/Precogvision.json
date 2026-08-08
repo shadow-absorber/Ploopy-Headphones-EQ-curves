@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -10.2,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "q": 1.2,
+            "f0": 20,
+            "db_gain": 7.1,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 35,
+            "db_gain": -5.2,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 41,
+            "db_gain": -8.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.5,
+            "f0": 200,
+            "db_gain": 5.8,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 1.5,
+            "f0": 280,
+            "db_gain": -2.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 430,
+            "db_gain": 8,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 710,
+            "db_gain": -0.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 2100,
+            "db_gain": 10.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -12,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 6200,
+            "db_gain": -5.2,
+            "filter_type": "Peaking",
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Precogvision",
+    "version": "0.0.9"
+}

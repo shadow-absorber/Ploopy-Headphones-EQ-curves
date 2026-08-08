@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -9.6,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "q": 1.1,
+            "f0": 20,
+            "db_gain": 6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 36,
+            "db_gain": -4.1,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 39,
+            "db_gain": -10.8,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 1.9,
+            "f0": 290,
+            "db_gain": -2.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.5,
+            "f0": 350,
+            "db_gain": 5.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 430,
+            "db_gain": 5.7,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 710,
+            "db_gain": -3.8,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 1.9,
+            "f0": 2300,
+            "db_gain": 10.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -9.8,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 6200,
+            "db_gain": -2.4,
+            "filter_type": "Peaking",
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Banbeucmas",
+    "version": "0.0.9"
+}

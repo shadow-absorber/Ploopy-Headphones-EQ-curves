@@ -1,0 +1,87 @@
+{
+    "preprocessing": {
+        "preamp": -9.1,
+        "post_eq_gain": 3,
+        "reverse_stereo": true
+    },
+    "filters": [
+        {
+            "q": 1.3,
+            "f0": 20,
+            "db_gain": 5.6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 35,
+            "db_gain": -3.7,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 40,
+            "db_gain": -11.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.5,
+            "f0": 190,
+            "db_gain": 6,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 280,
+            "db_gain": -2.3,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 430,
+            "db_gain": 6.3,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 2200,
+            "db_gain": 9.4,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 3300,
+            "db_gain": -12,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 2,
+            "f0": 6200,
+            "db_gain": -10.9,
+            "filter_type": "Peaking",
+            "enabled": true
+        },
+        {
+            "q": 0.6,
+            "f0": 7000,
+            "db_gain": 6.1,
+            "filter_type": "Peaking",
+            "enabled": true
+        }
+    ],
+    "codec": {
+        "oversampling": false,
+        "phase": false,
+        "rolloff": false,
+        "de_emphasis": false
+    },
+    "name": "Bad Guy",
+    "version": "0.0.9"
+}
